@@ -1,0 +1,20 @@
+{
+  "name": "watch-videos-server",
+  "version": "1.0.0",
+  "description": "server for WatchVideos",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlgrimsborn/WatchVideos.git"
+  },
+  "author": "carlgrimsborn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlgrimsborn/WatchVideos/issues"
+  },
+  "homepage": "https://github.com/carlgrimsborn/WatchVideos#readme"
+}
