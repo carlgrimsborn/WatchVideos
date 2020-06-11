@@ -21,6 +21,7 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *addCommentTextField;
 @property (weak, nonatomic) IBOutlet UITableView *commentTableView;
+@property (weak, nonatomic) IBOutlet UIView *borderView;
 
 @property (nonatomic, strong) NSString *valueForTextInput;
 @property (nonatomic, strong) NSString *valueForVideoIdentifier;
@@ -36,10 +37,13 @@
    
     NSLog(@"DATA, %@", self.video.videoIdentifier);
     
+
+
     self.valueForVideoIdentifier = self.video.videoIdentifier;
     
     self.commentTableView.dataSource = self;
     self.commentTableView.delegate = self;
+  
     
     self.webView.delegate = self;
     

@@ -18,8 +18,10 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
-    [self.cellView.layer setBorderWidth:1 ];
-    self.cellView.layer.borderColor = [[UIColor colorWithRed:157.0 / 255.0 green:157.0 / 255.0  blue:157.0 / 255.0  alpha:0.8] CGColor];
+    [self.cellView.layer setBorderWidth: 1 ];
+    self.cellView.layer.borderColor = UIColor.systemGray4Color.CGColor;
+    
+    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
